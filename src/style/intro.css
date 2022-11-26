@@ -1,0 +1,51 @@
+.intro_wrapper {
+    /* border: 1px solid white; */
+    margin-top: 25px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-content {
+    /* border: 1px solid white; */
+    width: 60vw;
+    height: max-content;
+}
+
+.intro-greet {
+    font-size: 18px;
+    color: rgb(100, 255, 218);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+
+.intro-head {
+    color: rgb(204, 214, 246);
+    font-size: 35px;
+    margin-top: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.intro-description {
+    color: rgb(165, 162, 162);
+    margin-top: 10px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+
+.intro-action-wrapper {
+    display: flex;
+}
+
+.intro-action-button {
+    border: 1px solid rgb(100, 255, 218);
+    width: max-content;
+    color: rgb(100, 255, 218);
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    margin-top: 25px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.intro-action-button:hover {
+    background-color: rgb(100 255 218 / 7%);
+    transition: all .3s ease-in-out;
+}

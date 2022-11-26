@@ -1,0 +1,30 @@
+.navbar_wrapper {
+    top: 0;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    background: none;
+    position: relative;
+    padding: 30px;
+}
+
+.navbar_item {
+    padding: 10px 25px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    color: rgb(165, 162, 162);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    /* border: 1px solid; */
+}
+
+.navbar_item span {
+    color: rgb(100, 255, 218);
+}
+
+.navbar_item:hover {
+    color: rgb(100, 255, 218);
+}
